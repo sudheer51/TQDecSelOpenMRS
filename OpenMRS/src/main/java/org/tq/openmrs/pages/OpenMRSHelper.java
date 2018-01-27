@@ -8,6 +8,7 @@ public class OpenMRSHelper {
 	WebDriver driver;
 	public OpenMRSHelper(WebDriver driver)
 	{
+		System.out.println("Modifying the code for branch US1234");
 		this.driver = driver;
 	}
 	public   void login(String uname,String pword)
